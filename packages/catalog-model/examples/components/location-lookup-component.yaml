@@ -1,12 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: artist-lookup
-  description: Artist Lookup
+  name: location-lookup
+  description: Location Lookup
   tags:
-    - java
+    - node
+    - api
     - data
 spec:
   type: service
   lifecycle: experimental
-  owner: artists@example.com
+  owner: abbey.kay@vet.com
