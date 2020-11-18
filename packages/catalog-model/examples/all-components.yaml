@@ -8,10 +8,10 @@ spec:
   targets:
     - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/location-lookup-component.yaml
     - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/petstore-component.yaml
-    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/playback-order-component.yaml
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/orders-component.yaml
     - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/podcast-api-component.yaml
     - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/queue-proxy-component.yaml
     - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/searcher-component.yaml
     - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/playback-lib-component.yaml
-    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/www-artist-component.yaml
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/www-frontend-component.yaml
     - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/components/shuffle-api-component.yaml
