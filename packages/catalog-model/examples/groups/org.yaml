@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: vet
+  description: The Vet Organization
+spec:
+  type: organization
+  ancestors: []
+  children: [digital-platform]
+  descendants:
+    [digital-platform, team-platform, team-frontend, team-data, team-api]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-groups
+  description: A collection of all Backstage example Groups
+spec:
+  type: github
+  targets:
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/groups/all-users.yaml
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/groups/digital-platform.yaml
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/groups/team-platform.yaml
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/groups/team-frontend.yaml
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/groups/team-data.yaml
+    - https://github.com/abid-khairul/backstage/blob/master/packages/catalog-model/examples/groups/team-api.yaml

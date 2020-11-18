@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: digital-platform
+  description: The backstage sub-department
+spec:
+  type: sub-department
+  parent: vet
+  ancestors: [vet]
+  children: [team-platform, team-frontend, team-data, team-api]
+  descendants: [team-platform, team-frontend, team-data, team-api]

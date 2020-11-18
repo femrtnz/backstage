@@ -1,0 +1,60 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rosalina.peeres
+spec:
+  profile:
+    displayName: Rosalina Peeres
+    email: rosalina.peeres@vet.com
+    picture: https://robohash.org/rosalina
+  memberOf: [team-platform, team-frontend]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: adam.hanson
+spec:
+  profile:
+    displayName: Adam Hanson
+    email: adam.hanson@vet.com
+    picture: https://robohash.org/adam
+  memberOf: [team-platform, team-api]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: cathleen.hawkins
+spec:
+  profile:
+    displayName: Cathleen Hawkins
+    email: cathleen.hawkins@vet.com
+    picture: https://robohash.org/cathleen
+  memberOf: [team-platform, team-data]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: philip.martins
+spec:
+  profile:
+    displayName: Philip Martins
+    email: philip.martins@vet.com
+    picture: https://robohash.org/philip
+  memberOf: [team-platform]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: abbey.kay
+spec:
+  profile:
+    displayName: Abbey Kay
+    email: abbey.kay@vet.com
+    picture: https://robohash.org/abbey
+  memberOf: [team-platform]
+

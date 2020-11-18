@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-frontend
+  description: Frontend Team
+spec:
+  type: team
+  parent: digital-platform
+  ancestors: [vet]
+  children: []
+  descendants: []
