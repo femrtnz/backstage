@@ -11,3 +11,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: team-api
+implementsApis:
+    - shuffle-api
